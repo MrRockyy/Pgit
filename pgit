@@ -1,0 +1,34 @@
+#!/bin/sh
+
+
+
+if [[ "init" = $1 ]]; then
+
+	python ~/.config/pgit/init.py
+
+elif [[ "real" = $1 ]]; then 
+
+        python ~/.config/pgit/main.py
+
+elif [[ "lts" = $1 ]]; then 
+      
+       echo "last stable version "
+       
+elif [[ "help" = $1 ]]; then 
+
+    echo "
+    [help] 
+    pgit <command>
+
+    commands
+
+    init  : initialized git in a current folder 
+    real :  activate real time upload
+    lts :  download the last stable version 
+    update : download the last normal version 
+    "
+elif [[ "last" = $1 ]]; then 
+     
+    python ~/.config/pgit/last.py
+fi
+
