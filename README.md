@@ -8,11 +8,3 @@ pgit is a real time control of versions tool
 
 `cd pgit` 
 
-# real time
-# real time
-# real time
-# real time
-# real time
-# real time
-# real time
-# real time
