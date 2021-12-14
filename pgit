@@ -30,5 +30,8 @@ elif [[ "help" = $1 ]]; then
 elif [[ "last" = $1 ]]; then 
      
     python ~/.config/pgit/last.py
+
+elif [["upload" = $1]]; then 
+    python ~/.config/pgit/upload.py
 fi
 
