@@ -24,7 +24,7 @@ elif [[ "help" = $1 ]]; then
 
     init  : initialized git in a current folder 
     real :  activate real time upload
-    lts :  download the last stable version 
+    ntag :  create a new release 
     update : download the last normal version 
     "
 elif [[ "last" = $1 ]]; then 
