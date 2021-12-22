@@ -1,6 +1,6 @@
 import os
 import time
-#sdfdsf this is a comment
+#sdfsdfsdfdsf this is a comment
 path="."
 def archivos(path):
   coc=[]
