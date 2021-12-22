@@ -6,5 +6,9 @@ pgit is a real time control of versions tool
 
 `git clone https://github.com/MrRockyy/pgit.git`
 
-`cd pgit` 
+`cd pgit`
+
+`chmod +x startup.sh`
+
+`./startup.sh`
 
