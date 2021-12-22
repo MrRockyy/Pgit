@@ -10,9 +10,9 @@ elif [[ "real" = $1 ]]; then
 
         python ~/.config/pgit/main.py
 
-elif [[ "lts" = $1 ]]; then 
+elif [[ "ntag" = $1 ]]; then 
       
-       echo "last stable version "
+      python ~/.config/pgit/release.py
        
 elif [[ "help" = $1 ]]; then 
 
