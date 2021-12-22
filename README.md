@@ -22,4 +22,6 @@ pgit is a real time control of versions tool
 - use `pgit ntag ` for create a featured version 
 
 example: v1.0.01 v1.0.12
-  
+
+-for remove a tag use `git tag -d <nombre>`
+-for remove a publish tag use ` git push origin --delete <nombre>`
